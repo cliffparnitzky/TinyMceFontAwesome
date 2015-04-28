@@ -1,10 +1,10 @@
 tinymce.addI18n('de', {
-    'Icons': 'Symbole',
+    'Icons': 'Font-Awesome Icons',
     'Web Application': 'Web-Anwendung',
     'File Type': 'Dateitypen',
     'Spinner': 'Drehend',
     'Form Control': 'Formularfelder',
-    'Currency': 'Währungen',
+    'Currency': 'W&auml;hrungen',
     'Text Editor': 'Texteditor',
     'Directional': 'Richtung',
     'Video Player': 'Videoplayer',
