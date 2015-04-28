@@ -25,7 +25,6 @@
  * @author     Cliff Parnitzky
  * @package    TinyMceFontAwesome
  * @license    LGPL
- * @license    LGPL
  */
 
 /**
@@ -33,7 +32,7 @@
  */
 namespace TinyMceFontAwesome;
 
-require_once(TL_ROOT . '/system/config/font-awesome.php');
+require_once(TL_ROOT . '/system/config/fontawesome.php');
 
 /**
 * Class TinyMceFontAwesome
@@ -74,8 +73,8 @@ class TinyMceFontAwesome {
 	 */
 	public function hookGetPageLayout(\PageModel $objPage, \LayoutModel $objLayout, \PageRegular $objPageRegular)
 	{
-		if(!$objLayout->tinyMceFontAwesome) {
-			$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = LINK_TINYMCE_FONTAWESOME . "||static";
+		if($objLayout->tinyMceFontAwesome) {
+			$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = LINK_TINYMCE_FONTAWESOME;
 		}
 	}
 }

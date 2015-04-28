@@ -28,8 +28,8 @@
  */
 
 /**
- * Define name and tooltip for preferences (inactive modules)
+ * Fields
  */
-$GLOBALS['TL_LANG']['MOD']['TinyMceFontAwesome'] = array('TinyMCE Font Awesome Plugin', 'Spezielles TinyMCE Plugin das einen Font Awesome Symbolwähler in den Editor einfügt.');
+$GLOBALS['TL_LANG']['tl_layout']['tinyMceFontAwesome'] = array('Font Awesome CSS laden', 'Wählen Sie, ob die Font Awesome CSS Datei eingebunden werden soll. Bei der Verwendung des TinyMCE Font Awesome Plugin wird dieses für das Rendern im Frontend benötigt.');
 
 ?>

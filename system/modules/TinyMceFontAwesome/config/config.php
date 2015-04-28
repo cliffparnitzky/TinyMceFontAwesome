@@ -27,13 +27,13 @@
  * @license    LGPL
  */
 
-require_once(TL_ROOT . '/system/config/font-awesome.php');
+require_once(TL_ROOT . '/system/config/fontawesome.php');
 
 // Adding plugin
-$GLOBALS['TINY_PLUGINS'][] = 'fontawesome';
+$GLOBALS['TINY_PLUGINS']['TinyMceFontAwesome'] = 'fontawesome';
 
 // Adding buttons
-$GLOBALS['TINY_BUTTONS_2'][] = 'fontawesome | ';
+$GLOBALS['TINY_BUTTONS_2']['TinyMceFontAwesome'] = 'fontawesome | ';
 
 // Adding HOOK to define more special config
 $GLOBALS['TL_HOOKS']['editTinyMcePluginLoaderConfig'][] = array('TinyMceFontAwesome', 'editTinyMcePluginLoaderConfig');
@@ -43,7 +43,7 @@ $GLOBALS['TL_HOOKS']['getPageLayout'][] = array('TinyMceFontAwesome', 'hookGetPa
 // Adding css fix
 if (TL_MODE == 'BE')
 {
-	$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = LINK_TINYMCE_FONTAWESOME . "||static";
+	$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = LINK_TINYMCE_FONTAWESOME;
 }
 
 ?>

@@ -30,6 +30,6 @@
 /**
  * Define name and tooltip for preferences (inactive modules)
  */
-$GLOBALS['TL_LANG']['MOD']['TinyMceFontAwesome'] = array('TinyMCE TinyMceFontAwesome Plugin', 'Special TinyMCE plugin that adds the forecolor/backcolor button controls which enables you to pick colors from a color picker and apply these to text.');
+$GLOBALS['TL_LANG']['MOD']['TinyMceFontAwesome'] = array('TinyMCE Font Awesome Plugin', 'Special TinyMCE plugin that adds a Font Awesome icon selector to the editor.');
 
 ?>
