@@ -41,3 +41,29 @@ Screenshot
 ----------
 
 ![Screenshot](screenshot.jpg)
+
+
+Additional information
+----------------------
+
+### Special notes
+
+In the backend, the CSS file for the Font Awesome icons will automatically be integrated.
+
+For the frontend, it has to be defined in the themes:
+
+![Screenshot theme settings](screenshot-theme.jpg)
+
+### Information in the wiki
+
+#### Create a new ...
+
+* [Creating a new plugin](wiki/Creating-a-new-plugin)
+* [Creating a new setup](wiki/Creating-a-new-setup)
+
+#### Installation hints
+* [Install manually](wiki/Install-manually)
+
+#### Bug report hints
+
+* [Report a bug](wiki/Report-a-bug)
