@@ -28,7 +28,7 @@ Compatibility
 -------------
 
 - min. Contao version: >= 3.3.0
-- max. Contao version: <  3.5.0
+- max. Contao version: <  3.6.0
 
 
 Dependency
@@ -58,12 +58,13 @@ For the frontend, it has to be defined in the themes:
 
 #### Create a new ...
 
-* [Creating a new plugin](wiki/Creating-a-new-plugin)
-* [Creating a new setup](wiki/Creating-a-new-setup)
+* [Creating a new plugin](https://github.com/cliffparnitzky/TinyMcePluginLoader/wiki/Creating-a-new-plugin)
+* [Creating a new bundle](https://github.com/cliffparnitzky/TinyMcePluginLoader/wiki/Creating-a-new-bundle)
+* [Creating a new setup](https://github.com/cliffparnitzky/TinyMcePluginLoader/wiki/Creating-a-new-setup)
 
 #### Installation hints
-* [Install manually](wiki/Install-manually)
+* [Install manually](https://github.com/cliffparnitzky/TinyMcePluginLoader/wiki/Install-manually)
 
 #### Bug report hints
 
-* [Report a bug](wiki/Report-a-bug)
+* [Report a bug](https://github.com/cliffparnitzky/TinyMcePluginLoader/wiki/Report-a-bug)
