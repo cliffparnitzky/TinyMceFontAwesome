@@ -57,6 +57,16 @@ For the frontend, it has to be defined in the themes:
 
 ![Screenshot theme settings](screenshot-theme.jpg)
 
+#### Change URL to Font Awesome CSS file
+
+Sometime it will be necessary to change the URL to the Font Awesome CSS file (e.g. in `https` environment).
+
+Add the following line to your `system/config/dcaconfig.php` and modify it (this way is update save):
+
+````
+$GLOBALS['TL_FONTAWESOME_CSS'] = 'https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+````
+
 ### Information in the wiki
 
 #### Create a new ...

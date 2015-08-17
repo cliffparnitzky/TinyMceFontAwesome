@@ -40,10 +40,13 @@ $GLOBALS['TL_HOOKS']['editTinyMcePluginLoaderConfig'][] = array('TinyMceFontAwes
 // Adding HOOK to add font-awesome css to layout
 $GLOBALS['TL_HOOKS']['getPageLayout'][] = array('TinyMceFontAwesome', 'hookGetPageLayout');
 
-// Adding css fix
+// Adding HOOK to add font-awesome css to backend
 if (TL_MODE == 'BE')
 {
-	$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = LINK_TINYMCE_FONTAWESOME;
+	$GLOBALS['TL_HOOKS']['loadLanguageFile']['TinyMceFontAwesomeHook'] = array('TinyMceFontAwesome', 'hookLoadLanguageFile');
 }
+
+// Defining the url to FontAwesome CSS file
+$GLOBALS['TL_FONTAWESOME_CSS'] = 'http://netdna.bootstrapcdn.com/font-awesome/' . TINYMCE_FONTAWESOME . '/css/font-awesome.min.css';
 
 ?>

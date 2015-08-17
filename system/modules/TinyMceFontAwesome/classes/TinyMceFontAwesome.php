@@ -32,8 +32,6 @@
  */
 namespace TinyMceFontAwesome;
 
-require_once(TL_ROOT . '/system/config/fontawesome.php');
-
 /**
 * Class TinyMceFontAwesome
 *
@@ -56,7 +54,7 @@ class TinyMceFontAwesome {
 			// add a comma
 			$contentCss .= ',';
 		}
-		$contentCss .= LINK_TINYMCE_FONTAWESOME;
+		$contentCss .= $GLOBALS['TL_FONTAWESOME_CSS'];
 		
 		// put the value into the array
 		
@@ -74,8 +72,22 @@ class TinyMceFontAwesome {
 	public function hookGetPageLayout(\PageModel $objPage, \LayoutModel $objLayout, \PageRegular $objPageRegular)
 	{
 		if($objLayout->tinyMceFontAwesome) {
-			$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = LINK_TINYMCE_FONTAWESOME;
+			$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = $GLOBALS['TL_FONTAWESOME_CSS'];
 		}
+	}
+	
+	/**
+	 * Add font-awesome css to the backend.
+	 * 
+	 * @param $objPage
+	 * @param $objLayout
+	 */
+	public function hookLoadLanguageFile($strName, $strLanguage)
+	{
+		$GLOBALS['TL_CSS']['TinyMceFontAwesome'] = $GLOBALS['TL_FONTAWESOME_CSS'];
+		
+		// make sure the hook is only executed once
+		unset($GLOBALS['TL_HOOKS']['loadLanguageFile']['TinyMceFontAwesomeHook']);
 	}
 }
  
