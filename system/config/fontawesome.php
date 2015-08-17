@@ -13,7 +13,7 @@
 /**
  * Plugin version and css url
  */
-define('TINYMCE_FONTAWESOME', '4.3.0');
+define('TINYMCE_FONTAWESOME', '4.4.0');
 define('LINK_TINYMCE_FONTAWESOME', 'http://netdna.bootstrapcdn.com/font-awesome/' . TINYMCE_FONTAWESOME . '/css/font-awesome.min.css');
 
 ?>

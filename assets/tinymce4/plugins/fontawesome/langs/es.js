@@ -1,5 +1,5 @@
 tinymce.addI18n('es', {
-    'Icons': 'Font-Awesome Iconos',
+    'Icons': 'Iconos',
     'Web Application': 'Aplicación Web',
     'File Type': 'Tipos de Fichero',
     'Spinner': 'Carga',
@@ -13,5 +13,6 @@ tinymce.addI18n('es', {
     'Transportation': 'Transportes',
     'Gender': 'Géneros',
     'Payment': 'Formas de Pago',
-    'Chart': 'Gráficos'
+    'Chart': 'Gráficos',
+    'Hand': 'Mano'
 });

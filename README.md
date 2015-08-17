@@ -9,6 +9,9 @@ Special TinyMCE plugin that that adds a Font Awesome icon selector to the editor
 
 The sources of this plugin could be found [here](https://github.com/josh18/TinyMCE-FontAwesome-Plugin).
 
+FontAwesome version: 4.4.0
+FontAwesome-Plugin version: 1.6.0
+
 
 Installation
 ------------
