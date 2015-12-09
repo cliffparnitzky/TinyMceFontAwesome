@@ -13,6 +13,6 @@
 /**
  * Plugin version and css url
  */
-define('TINYMCE_FONTAWESOME', '4.4.0');
+define('TINYMCE_FONTAWESOME', '4.5.0');
 
 ?>

@@ -57,7 +57,6 @@ class TinyMceFontAwesome {
 		$contentCss .= $GLOBALS['TL_FONTAWESOME_CSS'];
 		
 		// put the value into the array
-		
 		$arrTinyConfig["content_css"] = '"' . $contentCss . '",';
 		
 		return $arrTinyConfig;
