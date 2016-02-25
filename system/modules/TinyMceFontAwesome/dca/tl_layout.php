@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2015 Leo Feyer
+ * Copyright (C) 2005-2016 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,13 +21,26 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Cliff Parnitzky 2015-2015
+ * @copyright  Cliff Parnitzky 2015-2016
  * @author     Cliff Parnitzky
  * @package    TinyMceFontAwesome
  * @license    LGPL
  */
 
-$GLOBALS['TL_DCA']['tl_layout']['palettes']['default'] = str_replace('external', 'external,tinyMceFontAwesome', $GLOBALS['TL_DCA']['tl_layout']['palettes']['default']);
+$arrLegends = explode(";", $GLOBALS['TL_DCA']['tl_layout']['palettes']['default']);
+foreach($arrLegends as $legendKey=>$legend)
+{
+	$arrFields = explode(",", $legend);
+	foreach ($arrFields as $fieldKey=>$field)
+	{
+		if ($field == "external")
+		{
+			$arrFields[$fieldKey] = $field . ',tinyMceFontAwesome';
+		}
+	}
+	$arrLegends[$legendKey] = implode(",", $arrFields);
+}
+$GLOBALS['TL_DCA']['tl_layout']['palettes']['default'] = implode(";", $arrLegends);
 
 $GLOBALS['TL_DCA']['tl_layout']['fields']['tinyMceFontAwesome'] = array
 (
