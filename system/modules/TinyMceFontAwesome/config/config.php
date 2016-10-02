@@ -47,6 +47,6 @@ if (TL_MODE == 'BE')
 }
 
 // Defining the url to FontAwesome CSS file
-$GLOBALS['TL_FONTAWESOME_CSS'] = 'http://netdna.bootstrapcdn.com/font-awesome/' . TINYMCE_FONTAWESOME . '/css/font-awesome.min.css';
+$GLOBALS['TL_FONTAWESOME_CSS'] = '//netdna.bootstrapcdn.com/font-awesome/' . TINYMCE_FONTAWESOME . '/css/font-awesome.min.css';
 
 ?>
