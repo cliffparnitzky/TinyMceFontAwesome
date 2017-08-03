@@ -3,7 +3,7 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (c) 2005-2015 Leo Feyer
+ * Copyright (c) 2005-2017 Leo Feyer
  *
  * @package TinyMceFontAwesome
  * @link    https://contao.org
@@ -13,6 +13,6 @@
 /**
  * Plugin version and css url
  */
-define('TINYMCE_FONTAWESOME', '4.5.0');
+define('TINYMCE_FONTAWESOME', '4.7.0');
 
 ?>

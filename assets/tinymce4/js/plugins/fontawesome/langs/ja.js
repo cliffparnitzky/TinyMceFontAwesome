@@ -14,5 +14,8 @@ tinymce.addI18n('ja', {
     'Gender': '性',
     'Payment': '支払い',
     'Chart': 'チャート',
-    'Hand': '手'
+    'Hand': '手',
+    'Accessibility': 'アクセシビリティ',
+    'Search': '検索',
+    'No icons matched your search': 'いいえアイコンは、検索条件に一致しません'
 });
