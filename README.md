@@ -30,8 +30,8 @@ https://github.com/cliffparnitzky/TinyMceFontAwesome/issues
 Compatibility
 -------------
 
-- min. Contao version: >= 3.3.0
-- max. Contao version: <  3.6.0
+- Contao version >= 3.3.0 ... <  3.6.0
+- Contao version >= 4.4.0
 
 
 Dependency
