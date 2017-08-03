@@ -28,7 +28,7 @@
 	"extra":{
 		"contao":{
 			"sources":{
-				"assets/tinymce4/plugins/fontawesome":"assets/tinymce4/plugins/fontawesome",
+				"assets/tinymce4/js/plugins/fontawesome":"assets/tinymce4/js/plugins/fontawesome",
 				"system/config/fontawesome.php":"system/config/fontawesome.php",
 				"system/modules/TinyMceFontAwesome":"system/modules/TinyMceFontAwesome"
 			}
