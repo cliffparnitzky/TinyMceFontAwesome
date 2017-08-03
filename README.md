@@ -38,6 +38,7 @@ Dependency
 ----------
 
 - To load this plugin and add it to the configuration the extension [[TinyMcePluginLoader]](https://github.com/cliffparnitzky/TinyMcePluginLoader) has to be installed.
+- Since Version 2.1.0 the extension [[TinyMceNoneditable]](https://github.com/cliffparnitzky/TinyMceNoneditable) is needed.
 
 
 Screenshot
