@@ -18,23 +18,21 @@
 	},
 	"require":{
 		"php":">=5.3",
-		"contao/core":">=3.3.0,<3.6",
-		"contao-community-alliance/composer-plugin":"~2.0",
-		"cliffparnitzky/tiny-mce-plugin-loader":">=2.1.1"
-	},
-	"conflict": {
-		"contao/core":"3.4.0,3.4.1,3.4.2"
+		"contao/core-bundle":"~4.4",
+		"contao-community-alliance/composer-plugin":"~3.0",
+		"cliffparnitzky/tiny-mce-plugin-loader":"~2.1",
+		"cliffparnitzky/tiny-mce-noneditable":"~1.0"
 	},
 	"extra":{
 		"contao":{
 			"sources":{
-				"assets/tinymce4/plugins/fontawesome":"assets/tinymce4/plugins/fontawesome",
+				"assets/tinymce4/js/plugins/fontawesome":"assets/tinymce4/js/plugins/fontawesome",
 				"system/config/fontawesome.php":"system/config/fontawesome.php",
 				"system/modules/TinyMceFontAwesome":"system/modules/TinyMceFontAwesome"
 			}
 		},
 		"branch-alias": {
-			"dev-master": "2.0.x-dev"
+			"dev-master": "2.1.x-dev"
 		}
 	}
 }

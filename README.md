@@ -9,8 +9,8 @@ Special TinyMCE plugin that that adds a Font Awesome icon selector to the editor
 
 The sources of this plugin could be found [here](https://github.com/josh18/TinyMCE-FontAwesome-Plugin).
 
-FontAwesome version: 4.5.0
-FontAwesome-Plugin version: 2.0.0
+FontAwesome version: 4.7.0
+FontAwesome-Plugin version: 2.1.0
 
 
 Installation
@@ -30,14 +30,15 @@ https://github.com/cliffparnitzky/TinyMceFontAwesome/issues
 Compatibility
 -------------
 
-- min. Contao version: >= 3.3.0
-- max. Contao version: <  3.6.0
+- Contao version >= 3.3.0 ... <  3.6.0
+- Contao version >= 4.4.0
 
 
 Dependency
 ----------
 
 - To load this plugin and add it to the configuration the extension [[TinyMcePluginLoader]](https://github.com/cliffparnitzky/TinyMcePluginLoader) has to be installed.
+- Since Version 2.1.0 the extension [[TinyMceNoneditable]](https://github.com/cliffparnitzky/TinyMceNoneditable) is needed.
 
 
 Screenshot
