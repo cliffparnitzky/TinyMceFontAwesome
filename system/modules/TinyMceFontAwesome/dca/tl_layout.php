@@ -47,7 +47,7 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['tinyMceFontAwesome'] = array
 	'label'                   => &$GLOBALS['TL_LANG']['tl_layout']['tinyMceFontAwesome'],
 	'exclude'                 => true,
 	'inputType'               => 'checkbox',
-	'eval'                    => array('tl_class' => 'clr w50'),
+	'eval'                    => array('tl_class' => 'clr w50 m12'),
 	'sql'                     => "char(1) NOT NULL default ''"
 );
 
