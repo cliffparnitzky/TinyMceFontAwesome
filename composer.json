@@ -3,7 +3,7 @@
 	"description":"Special TinyMCE plugin that that adds a Font Awesome icon selector to the editor",
 	"keywords":["contao","tinymce","tiny editor","tinymce plugin","font awesome","tinymce4"],
 	"type":"contao-module",
-	"license":"LGPL-3.0+",
+	"license":"LGPL-3.0-or-later",
 	"authors":[
 		{
 			"name":"Cliff Parnitzky",
